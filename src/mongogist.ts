@@ -1,9 +1,11 @@
 export default class MongoGist {
-  name: string
-  constructor(name: string) {
-    this.name = name
+  private accessToken: string
+
+  constructor({ accessToken }: Options) {
+    this.accessToken = accessToken
   }
-  sayHello() {
-    return `Hello ${this.name}`
-  }
+}
+
+interface Options {
+  accessToken: string
 }
