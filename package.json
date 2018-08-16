@@ -2,7 +2,11 @@
   "name": "mongogist",
   "version": "0.0.0",
   "description": "",
-  "keywords": ["gist", "db", "mongo"],
+  "keywords": [
+    "gist",
+    "db",
+    "mongo"
+  ],
   "main": "dist/mongogist.umd.js",
   "module": "dist/mongogist.es5.js",
   "typings": "dist/types/mongogist.d.ts",
@@ -107,5 +111,8 @@
     "typedoc": "^0.11.0",
     "typescript": "^3.0.1",
     "validate-commit-msg": "^2.12.2"
+  },
+  "dependencies": {
+    "cross-fetch": "^2.2.2"
   }
 }
